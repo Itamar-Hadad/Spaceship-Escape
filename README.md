@@ -1,6 +1,6 @@
 # 🚀 Spaceship Escape
 
-**Space Escape** is a simple endless Android game developed in **Kotlin** as part of a course assignment in **User Interfaces Development**  
+**Spaceship Escape** is a simple endless Android game developed in **Kotlin** as part of a course assignment in **User Interfaces Development**  
 The player controls a **spaceship** that must dodge falling **meteors** and survive as long as possible.
 
 ---
@@ -58,6 +58,9 @@ The player controls a **spaceship** that must dodge falling **meteors** and surv
 ---
 
 ## 📸 Screenshots
+![gameplay](https://github.com/user-attachments/assets/28e34dbb-0bbf-4e33-b20e-da81c209cb54)
+![gameover](https://github.com/user-attachments/assets/24b1c1d6-6b0f-4ef4-acf2-62b5a35b92e9)
+
 
 
 
