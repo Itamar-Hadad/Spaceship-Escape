@@ -60,8 +60,8 @@ The player controls a **spaceship** that must dodge falling **meteors** and surv
 ## 📸 Screenshots
 
 <p>
-  <img src="https://github.com/user-attachments/assets/36fed31e-27a6-4539-90ed-cf3d8c917bd8" width="300"/>
-  <img src="https://github.com/user-attachments/assets/311650b4-8528-4ea3-8c53-4e146aca4f0e" width="300"/>
+  <img src="https://github.com/user-attachments/assets/20808b95-1d2c-4544-b96f-38281f380c04" width="300"/>
+  <img src="https://github.com/user-attachments/assets/8f3ccf8c-0805-4323-b6c8-e042a6cc6795" width="300"/>
 </p>
 
 
