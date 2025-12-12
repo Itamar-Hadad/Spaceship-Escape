@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space_background2"
+    android:layoutDirection="ltr"
+    tools:context=".GameOverActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_LBL_title_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        tools:text="Game Over!"
+        android:textSize="@dimen/title_size"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:translationX="1dp"
+        android:translationY="1dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/button_color"
+        android:textSize="@dimen/title_size"
+        tools:text="Game Over!"
+         />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/main_FAB_play_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/main_LBL_title_background"
+        android:layout_marginTop="@dimen/bigger_margin"
+        app:icon="@drawable/play_again_icon"
+        app:iconTint="@color/white"
+        app:iconSize="@dimen/button_play_again_size"
+        app:backgroundTint="@color/button_color"
+        android:text="Play Again"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+
+        />
+
+</RelativeLayout>
