@@ -72,4 +72,4 @@ The player controls a **spaceship** that must dodge falling **meteors** and surv
 To run this project locally:
 
 ```bash
-
+git clone https://github.com/Itamar-Hadad/Spaceship-Escape.git
