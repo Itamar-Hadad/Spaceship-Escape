@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="default_margin">8dp</dimen>
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
     <dimen name="heart_size">40dp</dimen>
-    <dimen name="button_margin">30dp</dimen>
+    <dimen name="button_margin">16dp</dimen>
     <dimen name="cell_width">0dp</dimen>
     <dimen name="bigger_margin">30dp</dimen>
     <dimen name="button_play_again_size">30dp</dimen>
     <dimen name="title_size">70sp</dimen>
+    <dimen name="padding_fragments">16dp</dimen>
+    <dimen name="textSize">20sp</dimen>
+    <dimen name="map_text_size">32sp</dimen>
+    <dimen name="menu_title_size">42sp</dimen>
+    <dimen name="menu_welcome_title_size">35sp</dimen>
+    <dimen name="switch_text_size">20dp</dimen>
+    <dimen name="button_width">180dp</dimen>
+    <dimen name="button_height">60dp</dimen>
+    <dimen name="button_text_size">28dp</dimen>
 </resources>

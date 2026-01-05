@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- OFF -->
+    <item android:state_checked="false" android:color="@color/switch_off_gray" />
+
+    <!-- ON -->
+    <item android:state_checked="true" android:color="@color/orange_app_color" />
+</selector>

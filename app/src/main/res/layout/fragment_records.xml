@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.RecordsFragment"
+    android:background="@drawable/space_background2">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        android:layout_margin="@dimen/default_margin"
+        app:cardElevation="8dp"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <TableRow
+                    android:background="@color/orange_app_color">
+                    <com.google.android.material.textview.MaterialTextView
+                        android:text="@string/rank_title"
+                        android:padding="@dimen/small_padding"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textSize"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:text="@string/score_title"
+                        android:padding="@dimen/small_padding"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textSize"/>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/records_ROW_row1">
+                    <com.google.android.material.textview.MaterialTextView
+                        android:padding="@dimen/small_padding"
+                        android:gravity="center"
+                        android:text="01"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/textSize"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/records_LBL_score1"
+                        android:padding="@dimen/small_padding"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/textSize"/>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/records_ROW_row2">
+                    <com.google.android.material.textview.MaterialTextView
+                        android:padding="@dimen/small_padding"
+                        android:gravity="center"
+                        android:text="02"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/textSize"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/records_LBL_score2"
+                        android:padding="@dimen/small_padding"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/textSize"/>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/records_ROW_row3">
+                    <com.google.android.material.textview.MaterialTextView
+                        android:padding="@dimen/small_padding"
+                        android:gravity="center"
+                        android:text="03"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/textSize"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/records_LBL_score3"
+                        android:padding="@dimen/small_padding"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/textSize"/>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/records_ROW_row4">
+                    <com.google.android.material.textview.MaterialTextView
+                        android:padding="@dimen/small_padding"
+                        android:gravity="center"
+                        android:text="04"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/textSize"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/records_LBL_score4"
+                        android:padding="@dimen/small_padding"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/textSize"/>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/records_ROW_row5">
+                    <com.google.android.material.textview.MaterialTextView
+                        android:padding="@dimen/small_padding"
+                        android:gravity="center"
+                        android:text="05"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/textSize"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/records_LBL_score5"
+                        android:padding="@dimen/small_padding"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/textSize"/>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/records_ROW_row6">
+                    <com.google.android.material.textview.MaterialTextView
+                        android:padding="@dimen/small_padding"
+                        android:gravity="center"
+                        android:text="06"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/textSize"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/records_LBL_score6"
+                        android:padding="@dimen/small_padding"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/textSize"/>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/records_ROW_row7">
+                    <com.google.android.material.textview.MaterialTextView
+                        android:padding="@dimen/small_padding"
+                        android:gravity="center"
+                        android:text="07"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/textSize"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/records_LBL_score7"
+                        android:padding="@dimen/small_padding"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/textSize"/>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/records_ROW_row8">
+                    <com.google.android.material.textview.MaterialTextView
+                        android:padding="@dimen/small_padding"
+                        android:gravity="center"
+                        android:text="08"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/textSize"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/records_LBL_score8"
+                        android:padding="@dimen/small_padding"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/textSize"/>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/records_ROW_row9">
+                    <com.google.android.material.textview.MaterialTextView
+                        android:padding="@dimen/small_padding"
+                        android:gravity="center"
+                        android:text="09"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/textSize"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/records_LBL_score9"
+                        android:padding="@dimen/small_padding"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/textSize"/>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/records_ROW_row10">
+                    <com.google.android.material.textview.MaterialTextView
+                        android:padding="@dimen/small_padding"
+                        android:gravity="center"
+                        android:text="10"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/textSize"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/records_LBL_score10"
+                        android:padding="@dimen/small_padding"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/textSize"/>
+                </TableRow>
+
+
+            </TableLayout>
+
+        </ScrollView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>
