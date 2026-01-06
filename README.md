@@ -160,7 +160,7 @@ Top 10 scores table with **Google Maps** integration.
 - **Sensors API**
 - **Lottie**
 - **Google Maps API**
-- **MediaPlayer / Sound effects
+- **MediaPlayer / Sound effects**
 
 ---
 
