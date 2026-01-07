@@ -10,6 +10,8 @@ class BackgroundMusicPlayer private constructor(context: Context)  {
     private var mediaPlayer: MediaPlayer? = null
     private var resourceId:Int = 0
 
+    private var musicOn: Boolean = true
+
     fun setResourceId(value:Int){
         this.resourceId = value
         initMediaPlayer()
@@ -25,6 +27,19 @@ class BackgroundMusicPlayer private constructor(context: Context)  {
         mediaPlayer?.isLooping = true
         mediaPlayer?.setVolume(0.35f,0.35f)
     }
+
+
+    fun setMusicOn(on: Boolean) {
+        musicOn = on
+        if (on) playMusic() else pauseMusic()
+    }
+
+    fun isMusicOn(): Boolean = musicOn
+
+    fun playIfAllowed() {
+        if (musicOn) playMusic()
+    }
+
 
     private fun release() {
         if (mediaPlayer == null)

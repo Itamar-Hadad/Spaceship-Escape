@@ -18,7 +18,6 @@ import androidx.lifecycle.lifecycleScope
 import com.example.task1.interfaces.GameEventCallback
 import com.example.task1.interfaces.TiltCallback
 import com.example.task1.logic.GameManager
-import com.example.task1.utilities.BackgroundMusicPlayer
 import com.example.task1.utilities.Constants
 import com.example.task1.utilities.SignalManager
 import com.example.task1.utilities.SingleSoundPlayer
@@ -55,8 +54,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var gameManager: GameManager
 
     private var timerJob: Job? = null
-
-    private var isGameRunning: Boolean = false
 
     private var isButtonsModeOn: Boolean = true
 

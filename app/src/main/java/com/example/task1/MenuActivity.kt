@@ -40,19 +40,14 @@ class MenuActivity : AppCompatActivity() {
     }
     override fun onResume() {
         super.onResume()
-        if(menu_SWITCH_sound.isChecked) {
-            BackgroundMusicPlayer.getInstance().playMusic()
-        }
+        val player = BackgroundMusicPlayer.getInstance()
+
+        menu_SWITCH_sound.isChecked = player.isMusicOn()
+
+        player.playIfAllowed()
     }
 
 
-    override fun onPause() {
-        super.onPause()
-
-        if (!isFinishing) {
-            BackgroundMusicPlayer.getInstance().pauseMusic()
-        }
-    }
 
 
     private fun findviews() {
@@ -66,12 +61,8 @@ class MenuActivity : AppCompatActivity() {
     private fun initviews() {
         menu_BTN_play.setOnClickListener { view: View -> changeToMainActivity() }
         menu_BTN_highScores.setOnClickListener { view: View -> changeToScoreActivity() }
-        menu_SWITCH_sound.setOnCheckedChangeListener { buttonView, isChecked ->
-            if (isChecked) {
-                BackgroundMusicPlayer.getInstance().playMusic()
-            } else {
-                BackgroundMusicPlayer.getInstance().pauseMusic()
-            }
+        menu_SWITCH_sound.setOnCheckedChangeListener { _, isChecked ->
+            BackgroundMusicPlayer.getInstance().setMusicOn(isChecked)
         }
 
     }
