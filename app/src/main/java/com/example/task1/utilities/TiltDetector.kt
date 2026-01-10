@@ -31,17 +31,16 @@ class TiltDetector(context: Context, private val tiltCallback: TiltCallback?) {
 
             override fun onSensorChanged(event: SensorEvent) {
                 val x = event.values[0]
-                val y = event.values[1]
                 val z = event.values[2]
 
 
 
-                handleTilt(x, y, z)
+                handleTilt(x,z)
             }
         }
     }
 
-    private fun handleTilt(x: Float, y: Float, z: Float) {
+    private fun handleTilt(x: Float, z: Float) {
         if (System.currentTimeMillis() - timestamp >= 500) {
             timestamp = System.currentTimeMillis()
             if (x >= 3.0) {

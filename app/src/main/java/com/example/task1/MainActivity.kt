@@ -200,6 +200,7 @@ class MainActivity : AppCompatActivity() {
 
                 override fun tiltForward() {
                     speedUp()
+
                 }
 
                 override fun tiltBackward() {
